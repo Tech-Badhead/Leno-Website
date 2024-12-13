@@ -593,6 +593,11 @@ img {
         background: url('../img/images/header-background.jpg') center center/cover no-repeat;
       }
 
+      .inner-details-container {
+        padding: 9rem 2rem;
+        width: 100%;
+      }
+
       .pricing {
         background-color: var(--tertiary-color);
       }
@@ -609,7 +614,7 @@ img {
 
       .pricing-card-box {
         background: rgba(255, 255, 255, 0.1);
-        padding: 2.5rem;
+        padding: 2rem;
         border-radius: 30px;
         margin-bottom: 2rem;
       }
@@ -628,14 +633,14 @@ img {
       }
 
       .pricing-description {
-        font-size: 2rem;
+        font-size: 1.9rem;
         text-align: center;
         margin-bottom: 1.5rem;
       }
 
       .pricing-card-title {
         text-transform: uppercase;
-        font-size: 1.5rem;
+        font-size: 1.4rem;
         font-weight: 600;
       }
 
@@ -945,6 +950,10 @@ img {
         padding: 0 1rem;
     }
 
+    .main-menu-list, li a i {
+      font-size: 1.8rem;
+    }
+
     .hero-button {
         width: 60%;
         text-align: center;
@@ -975,6 +984,10 @@ img {
     /* Features */
     .features {
         padding: 2.5rem 0;
+    }
+
+    .features-title h1 {
+      font-size: 1.2rem;
     }
 
     .features .features-middle-column, .item1 {
@@ -1114,13 +1127,42 @@ img {
         grid-template-columns: 1fr;
       }
 
+      .footer-container {
+        padding-top: 4rem;
+      }
+
+      .about-leno h3 {
+        font-size: 1.7rem;
+      }
+
       .about-leno p {
         max-width: 100%;
       }  
 
+      .site-map h3 {
+        font-size: 1.7rem;
+      }
+
+      .icons-link i {
+        font-size: 2.6rem;
+      }
+
+      .footer .icons-link {
+        margin-top: 0.8rem;
+      }
+
+
       /* Inner Details */
       .pricing .pricing-grid {
         grid-template-columns: 1fr;
+      }
+
+      .pricing .pricing-description {
+        font-size: 1.8rem;
+      }
+
+      .pricing .pricing-card-title {
+        font-size: 1.3rem;
       }
       
       .inner-features-flex-items {
@@ -1136,11 +1178,24 @@ img {
         margin-top: 2rem;
       }
 
+      .inner-features-heading {
+        font-size: 2.2rem;
+      }
+
+      .inner-features-title {
+        font-size: 1.4rem;
+      }
+
       .inner-features-description {
         text-align: center;
+        font-size: 0.9rem;
       }
 
       .inner-features-container {
         padding-bottom: 3rem;
+      }
+
+      .pricing-plan::first-line {
+        font-size: 2.4rem;
       }
 }
